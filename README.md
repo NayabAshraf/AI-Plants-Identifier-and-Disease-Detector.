@@ -50,7 +50,7 @@ INSTALLATION:
 
 1.  Clone Repo:
 
-2.  git clone https://github.com/NayabAshraf/AI-Plants-Identifier-and-Disease-Detector.
+2.  git clone https://github.com/NayabAshraf/AI-Plants-Identifier-and-Disease-Detector..git
     
     cd plant-doctor
     
