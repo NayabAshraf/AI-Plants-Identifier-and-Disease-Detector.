@@ -38,7 +38,7 @@ plant_image_fetcher.py # Image Fetching
 INSTALLATION:
 
 1.  Clone Repo: git clone
-    https://github.com/NayabAshraf/AI-Plants-Identifier-and-Disease-Detector.
+    https://github.com/NayabAshraf/AI-Plants-Identifier-and-Disease-Detector
     cd plant-doctor
 3.  Create Virtual Environment: python -m venv venv
 4.  Install Dependencies: pip install -r requirements.txt
