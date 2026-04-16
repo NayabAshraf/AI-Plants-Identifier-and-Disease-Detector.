@@ -6,6 +6,7 @@ detailed plant care information and related images.
 
 
  FEATURES:
+ 
 -   Plant Identification using Vision Transformer (ViT)
 -   Disease Detection using MobileNetV2
 -   AI-generated Plant Information (Groq LLM)
@@ -15,10 +16,15 @@ detailed plant care information and related images.
 -   JSON Output View for Debugging
 
 TECH STACK:
+
 Frontend: Streamlit
+
 Backend: Python
+
 AI Models: Hugging Face Transformers
+
 LLM: Groq (LLaMA 3.1)
+
 Image Search: DuckDuckGo
 
 Libraries: - torch - transformers - streamlit - pillow - matplotlib -
@@ -28,28 +34,42 @@ duckduckgo-search - requests
 PROJECT STRUCTURE:
 
 plant-doctor/
+
 app_streamlit.py # Streamlit Web App
+
 app.py # CLI Version
+
 vision_model.py # AI Models
+
 groq_description.py # LLM Info Generator
+
 plant_image_fetcher.py # Image Fetching
 
 
 INSTALLATION:
 
-1.  Clone Repo: git clone
-    https://github.com/NayabAshraf/AI-Plants-Identifier-and-Disease-Detector
+1.  Clone Repo:
+
+2.  git clone https://github.com/NayabAshraf/AI-Plants-Identifier-and-Disease-Detector.
+    
     cd plant-doctor
+    
 3.  Create Virtual Environment: python -m venv venv
+  
 4.  Install Dependencies: pip install -r requirements.txt
 
 SETUP:
+
 Add your Groq API key in: groq_description.py
+
 GROQ_API_KEY = “your_api_key_here”
 
 RUN APP:
+
 Streamlit: streamlit run app_streamlit.py
+
 Open in browser: http://localhost:8501
+
 CLI: python app.py
 
 HOW IT WORKS:
@@ -61,7 +81,8 @@ HOW IT WORKS:
 6.  Fetch images
 
 MODELS USED:
+
 Plant Model: marwaALzaabi/plant-identification-vit
-Disease Model:
-linkanjarad/mobilenet_v2_1.0_224-plant-disease-identification
+
+Disease Model: linkanjarad/mobilenet_v2_1.0_224-plant-disease-identification
 
